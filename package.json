@@ -1,0 +1,14 @@
+{
+  "name": "com.passivepicasso.visualmark",
+  "version": "1.0.0",
+  "displayName": "VisualMark",
+  "description": "MarkdownElement for Unity's UIToolkit",
+  "unity": "2018.4",
+  "release": "12f1",
+  "author": {
+    "name": "PassivePicasso",
+    "url": "https://github.com/PassivePicasso/VisualMark"
+  },
+  "dependencies": {
+  }
+}
