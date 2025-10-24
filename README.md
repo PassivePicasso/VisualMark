@@ -104,7 +104,7 @@ VisualMark extends standard Markdown with Unity-specific link schemes:
 **Asset Links** - Link to Unity assets:
 ```markdown
 [Open Prefab](assetlink://Assets/Prefabs/Example.prefab)
-[Open by GUID](assetlink://GUID/1234567890abcdef)
+[Open by GUID](assetlink://GUID/1234567890abcdef1234567890abcdef)
 ```
 
 **Menu Links** - Execute Unity menu commands:
@@ -157,7 +157,7 @@ VisualMark provides extensive styling through Unity Style Sheets:
 For detailed documentation, including advanced features and API reference:
 
 - **[Getting Started Guide](visualmark-guide.md)** - Comprehensive guide with examples
-- **[Third Party Notices](Third%20Party%20Notices.md)** - Open source licenses
+- **[Third Party Notices](<Third Party Notices.md>)** - Open source licenses
 
 ### Topics Covered in the Guide
 
@@ -222,7 +222,7 @@ This project uses components governed by various open source licenses:
 - **Cascadia Code** - SIL Open Font License 1.1
 - **Markdown Test File** - MIT License
 
-See [Third Party Notices](Third%20Party%20Notices.md) for complete license information.
+See [Third Party Notices](<Third Party Notices.md>) for complete license information.
 
 ## 🙏 Acknowledgments
 
