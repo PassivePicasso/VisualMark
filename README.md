@@ -1,29 +1,29 @@
 # VisualMark
 
 [![Unity Version](https://img.shields.io/badge/Unity-2018.4%2B-blue.svg)](https://unity.com/)
-[![License](https://img.shields.io/badge/License-BSD--2--Clause-green.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Package Version](https://img.shields.io/badge/version-1.0.0-orange.svg)](package.json)
 
 **VisualMark** is a powerful Unity package that brings Markdown rendering to Unity's UI Toolkit (UIElements). Create rich, styled documentation, help systems, and text-based UIs directly within Unity using standard Markdown syntax.
 
-## ✨ Features
+## Features
 
-- 📝 **Full Markdown Support** - Render standard Markdown with headings, lists, code blocks, links, images, and more
-- 🎨 **Unity Style Sheets (USS)** - Style your Markdown content with Unity's powerful styling system
-- 🔗 **Custom Link Schemes** - Built-in support for Unity asset links and menu commands, plus extensible custom schemes
-- 📋 **JSON Front Matter** - Add metadata and configuration to your Markdown files
-- 🖼️ **Image Support** - Display local Unity assets and remote images with automatic caching
-- 🔄 **Live Updates** - Automatically refreshes content when Markdown files change
-- 🎯 **Editor Integration** - Seamlessly integrates with Unity's Editor UI
-- 🌙 **Theme Support** - Built-in light and dark theme support
-- 🔌 **Extensible Architecture** - Create custom renderers, link handlers, and extensions
+- **Full Markdown Support** - Render standard Markdown with headings, lists, code blocks, links, images, and more
+- **Unity Style Sheets (USS)** - Style your Markdown content with Unity's powerful styling system
+- **Custom Link Schemes** - Built-in support for Unity asset links and menu commands, plus extensible custom schemes
+- **JSON Front Matter** - Add metadata and configuration to your Markdown files
+- **Image Support** - Display local Unity assets and remote images with automatic caching
+- **Live Updates** - Automatically refreshes content when Markdown files change
+- **Editor Integration** - Seamlessly integrates with Unity's Editor UI
+- **Theme Support** - Built-in light and dark theme support
+- **Extensible Architecture** - Create custom renderers, link handlers, and extensions
 
-## 📋 Requirements
+## Requirements
 
 - **Unity 2018.4** or newer
 - **UI Toolkit (UIElements)** - Built into Unity 2019.1+ (Experimental in 2018.4)
 
-## 📦 Installation
+## Installation
 
 ### Via Unity Package Manager (Recommended)
 
@@ -49,7 +49,7 @@ Add the following to your project's `Packages/manifest.json`:
 1. Download or clone this repository
 2. Copy the entire folder into your Unity project's `Packages` directory
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Creating a Markdown Element in UXML
 
@@ -95,7 +95,7 @@ var markdownElement = new MarkdownElement
 };
 ```
 
-## 🎯 Key Features
+## Key Features
 
 ### Special Link Types
 
@@ -152,7 +152,7 @@ VisualMark provides extensive styling through Unity Style Sheets:
 }
 ```
 
-## 📚 Documentation
+## Documentation
 
 For detailed documentation, including advanced features and API reference:
 
@@ -204,7 +204,7 @@ public class CustomBlockRenderer : UIElementObjectRenderer<CustomBlock>
 }
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Whether it's bug reports, feature requests, or code contributions:
 
@@ -214,7 +214,7 @@ Contributions are welcome! Whether it's bug reports, feature requests, or code c
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project uses components governed by various open source licenses:
 
@@ -224,24 +224,24 @@ This project uses components governed by various open source licenses:
 
 See [Third Party Notices](<Third Party Notices.md>) for complete license information.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built on the excellent [Markdig](https://github.com/xoofx/markdig) Markdown processor by Alexandre Mutel
 - Uses [Cascadia Code](https://github.com/microsoft/cascadia-code) font by Microsoft
 - Test files from [markdown-test-file](https://github.com/mxstbr/markdown-test-file) by Max Stoiber
 
-## 📧 Contact
+## Contact
 
 - **Author**: PassivePicasso
 - **Repository**: [https://github.com/PassivePicasso/VisualMark](https://github.com/PassivePicasso/VisualMark)
 
-## 🌟 Support
+## Support
 
 If you find VisualMark useful, please consider:
-- ⭐ Starring the repository
-- 🐛 Reporting issues
-- 💡 Suggesting features
-- 🔧 Contributing code
+- Starring the repository
+- Reporting issues
+- Suggesting features
+- Contributing code
 
 ---
 
